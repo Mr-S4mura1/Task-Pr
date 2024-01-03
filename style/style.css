@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Le damos un margen al H1 */
+h1 {
+  margin: 50px;
+}
+
+/* Le damos propiedades al input y al Add */
+.container_add input {
+  height: 35px;
+  width: 30rem;
+  margin: 0px 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 0px 30px;
+}
+
+.button_add {
+  margin: 20px 0px;
+  background-color: rgb(58, 111, 180);
+  padding: 8px 50px;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#reload {
+  background-color: rgb(190, 79, 79);
+}
+
+/* Le damos propiedades al container (Task) */
+.container_task {
+  margin: 20px;
+  width: 60%;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.iconb {
+  color: brown;
+  position: relative;
+  top: -18px;
+  left: 100%;
+  cursor: pointer;
+}
